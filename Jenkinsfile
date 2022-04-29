@@ -4,7 +4,7 @@ pipeline {
         stage ('Build'){
             steps{
                 echo 'Building...'
-                bat 'hello this is devops lab'
+                echo 'hello this is my program'
             }
         }
         stage ('Test'){
