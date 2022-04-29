@@ -4,7 +4,7 @@ pipeline {
         stage ('Build'){
             steps{
                 echo 'Building...'
-                bat 'python lab.py'
+                bat 'hello this is devops lab'
             }
         }
         stage ('Test'){
